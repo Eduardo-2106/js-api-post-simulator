@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Postagem com API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Criar Novo Post</h1>
+    </header>
+
+    <main>
+        <section id="form-post">
+            <form id="postForm">
+                <label for="postTitle">Título do Post:</label>
+                <input type="text" id="postTitle" required>
+
+                <label for="postBody">Conteúdo do Post:</label>
+                <textarea id="postBody" rows="5" required></textarea>
+                
+                <button type="submit">Postar Conteúdo</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="post-output">
+            <h2>Postagem Renderizada</h2>
+            <h3 id="renderizador-titulo">Aguardando a sua primeira postagem...</h3>
+            <p id="renderizador-conteudo"></p>
+        </section>
+    </main>
+
+</body>
+</html>
