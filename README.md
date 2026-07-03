@@ -28,9 +28,24 @@ O desenvolvimento priorizou o uso de JavaScript Baunilha (*Vanilla JS*) para apr
 ## Estrutura do Repositório
 
 O repositório mantém uma arquitetura simplificada e direta:
-```bash
-devstart-post-manager/
+```text
+js-api-post-simulator/
 ├── README.md 
 ├── index.html   # Estrutura e marcação semântica do formulário e saída de dados
 ├── style.css    # Identidade visual e estilização customizada dos componentes
 └── script.js    # Lógica de negócio, consumo da API REST e manipulação de interface
+```
+
+## Como Executar o Projeto
+
+Como a aplicação foi desenvolvida utilizando exclusivamente tecnologias web nativas, você não precisa instalar nenhum gerenciador de pacotes ou rodar servidores locais:
+
+1. **Clone este repositório** para a sua máquina local:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-seu-repositorio.git
+   ```
+2. **Navegue até o diretório** do projeto.
+3. **Abra o arquivo `index.html`** diretamente em qualquer navegador moderno (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, etc.).
+
+---
+*Projeto prático desenvolvido durante o curso DEVStart para compor meu portfólio pessoal de desenvolvimento front-end.*
